@@ -1,0 +1,30 @@
+body {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  height: 300px;
+  width: 300px;
+  background-color: #42a9e9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.circle {
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: jump 1s infinite ease-in-out;
+}
+.stand {
+  height: 10rem;
+  width: 1.5rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  animation: disappear 1000ms infinite ease-in-out;
+}
