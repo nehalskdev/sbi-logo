@@ -26,5 +26,4 @@ body {
   background-color: #fff;
   position: absolute;
   bottom: 0;
-  animation: disappear 1000ms infinite ease-in-out;
 }
